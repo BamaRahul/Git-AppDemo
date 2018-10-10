@@ -9,8 +9,14 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+    <button onclick="callme();">callme</button>
     </div>
     </form>
 </body>
 </html>
+<script type="text/javascript">
+    function callme()
+    {
+        alert("Welcome");
+    }
+</script>
